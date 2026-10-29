@@ -1,0 +1,1 @@
+var e;function t(){return e??=fetch(`/api/auth/session`,{credentials:`same-origin`,cache:`no-store`}),e.then(e=>e.clone())}export{t};
